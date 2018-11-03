@@ -1,0 +1,20 @@
+{
+    "name": "tkotosz/cli-app-builder",
+    "type": "library",
+    "require": {
+        "symfony/console": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/config": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "Tibor Kotosz",
+            "email": "kotosy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tkotosz\\CliAppBuilder\\": "src"
+        }
+    }
+}
