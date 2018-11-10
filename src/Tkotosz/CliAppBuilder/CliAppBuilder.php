@@ -62,9 +62,11 @@ class CliAppBuilder
         return $this;
     }
 
-    public function addConfigurator(ConfiguratorInterface $configurator)
+    public function addConfigurator(ConfiguratorInterface $configurator): CliAppBuilder
     {
         $this->configurators[] = $configurator;
+
+        return $this;
     }
 
     public function build(): Application
